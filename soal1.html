@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soal 1</title>
+    <style>
+        body{
+            margin:0;
+            background:#4d83aa;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width:800px;
+            margin:20px auto;
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+        }
+        .header{
+            background:#E2D800;
+            padding:20px;
+            font-size:28px;
+            font-weight:bold;
+            color:#032152;
+        }
+        .content{
+            display:flex;
+        }
+        .sidebar{
+            width:300px;
+            padding:20px;
+            background:#ffffff;
+            border-right:2px dotted #999;
+        }
+
+        .sidebar h3{
+            margin:0 0 10px 0;
+            padding-bottom:5px;
+            border-bottom:2px dotted #999;
+            color:#032152;
+        }
+
+        .sidebar a{
+            display:block;
+            text-decoration:none;
+            color:#032152;
+            margin:5px 0;
+        }
+
+        .search-box{
+            margin-top:20px;
+        }
+
+        .search-box input{
+            width:180px;
+            padding:5px;
+        }
+
+        .search-box button{
+            padding:5px 8px;
+        }
+        .main{
+            width:500px;
+            padding:20px;
+        }
+
+        .main h2{
+            margin-top:0;
+            color:#032152;
+        }
+        .table-wrapper{
+            width:100%;
+            border-radius:6px;
+            overflow:hidden;
+            border:3px solid #032152;
+        }
+        table{
+            width: 500px;
+            border-collapse:collapse;
+            text-align:center;
+            color:white;
+        }
+        thead{
+            background:#9CBCD0;
+            color:#032152;
+            font-weight:bold;
+        }
+        tbody{
+            background:#6F93A8;
+        }
+        th, td{
+            padding:12px;
+        }
+        tfoot{
+            background:#dcdcdc;
+            color:#032152;
+            font-style:italic;
+        }
+
+        tfoot td{
+            padding:10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        Soal Pertama :)
+    </div>
+
+    <div class="content">
+
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <a href="soal1.html">Soal Pertama</a>
+            <a href="soal2.html">Soal Kedua</a>
+
+            <div class="search-box">
+                <h3>Search</h3>
+                <input type="text" placeholder="Search this web">
+                <button>GO!</button>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Tabel Sesuatu</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Huruf</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>A</td>
+                            <td>Pertama</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>B</td>
+                            <td>Kedua</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>C</td>
+                            <td>Ketiga</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Data di atas adalah data fiktif</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
